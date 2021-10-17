@@ -2,8 +2,9 @@
   "name": "ultimate.ai",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mahnoorfatima/ultimate.ai/issues"
   },
-  "homepage": "https://github.com/mahnoorfatima/ultimate.ai#readme"
+  "homepage": "https://github.com/mahnoorfatima/ultimate.ai#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "log-winston-aws-level": "^1.11.0",
+    "mongoose": "^5.10.9",
+    "request": "^2.88.2"
+  }
 }
