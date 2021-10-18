@@ -7,8 +7,9 @@ const
 
 module.exports = class BotConversation {
     constructor(params) {
-        this.message = params.body.message;
-        this.botId = params.body.botId;
+        if (!params.message && !params.botId) throw new UltimateAiError(400, 'Parameters are mandatory');
+        this.message = params.message;
+        this.botId = params.botId;
     }
     async process() {
         try {
