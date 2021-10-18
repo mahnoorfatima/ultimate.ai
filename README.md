@@ -5,14 +5,17 @@
 * [Mongo db] 
 * [node package manager]
 
-## Start Instructions
+## How to run
 
 1. Install dependencies
    ```bash
    npm install
    ```
+   ```
+1. Update .env file with ULTIMATE_API_KEY, ULTIMATE_API_VALUE, MONGO_DB uri
+
 1. Start the service   
     ```bash
     npm start
     ```
-1. 
+ 
