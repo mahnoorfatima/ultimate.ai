@@ -4,7 +4,7 @@ const errorData = Symbol('Error Data');
 module.exports = class UltimateAiError extends Error {
   constructor(code, message, data) {
     if (!(code && message)) {
-      throw new TenovosError(500, 'Code and Message are required in constructor');
+      throw new UltimateAiError(500, 'Code and Message are required in constructor');
     }
     super(message);
     this[errorCode] = code;

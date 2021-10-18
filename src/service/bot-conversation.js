@@ -7,7 +7,7 @@ const
 
 module.exports = class BotConversation {
     constructor(params) {
-        if (!params.message && !params.botId) throw new UltimateAiError(400, 'Parameters are mandatory');
+        if (!params.message && !params.botId) return 'Parameters are mandatory';
         this.message = params.message;
         this.botId = params.botId;
     }

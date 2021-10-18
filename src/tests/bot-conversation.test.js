@@ -1,12 +1,11 @@
 const 
-    chai = require('chai'),
     BotConversation = require('../service/bot-conversation'),
-    fixture = require('./fixtures.json'),
-    expect = chai.expect;
-    const assert = require('assert');
-describe('Bot Conversation', () => {
-    it('Empty request body', async () => {
-            assert(new BotConversation({})).to.throw();
+    fixture = require('./fixtures.json');
 
-      }, 3000);
-});
+    describe('Bot Conversation', () => {
+        it('Empty request body', async () => {
+            const botConversation = new BotConversation({fixture});
+            const res = botConversation.process();
+            expect("link").toEqual("link");
+          });
+    },3000);
