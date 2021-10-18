@@ -48,3 +48,9 @@
 - [x] Build pipeline (CI/CD) to deploy on heroku
 - [x] ResponseApi.yml 
 
+## Improvements
+If i had more time, i'd also have implemented
+
+- [x] query based graphql call to api
+- [x] Deploy the working solution on any serverless or Heroku
+- [x] Code quality improvement (moving to Typescript) and More error handling
