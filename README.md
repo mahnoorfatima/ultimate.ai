@@ -5,7 +5,7 @@
 * [Mongo db] 
 * [node package manager]
 
-## Deployment Instructions
+## Start Instructions
 
 1. Install dependencies
    ```bash
