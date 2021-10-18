@@ -28,7 +28,7 @@
 1. Please see the responseApi.yml file to make request to the server
 1. To check the health of app 
     ```bash
-      localhost:3000/check
+      localhost:3000//api/check
     ```  
 
 ## Description 
